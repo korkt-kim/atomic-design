@@ -9,6 +9,12 @@ export default {
 
 export const basicButton = () => <Button variant="secondary">Basic Button</Button>;
 
+export const iconButton = () => (
+  <Button icon="user" variant="secondary">
+    Icon Button
+  </Button>
+);
+
 export const functionButton = () => <Button onClick={() => alert('hello')}>Function Button</Button>;
 
 export const linkedButton = () => <Button href="/route">Linked Button</Button>;
